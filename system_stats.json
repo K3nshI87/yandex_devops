@@ -1,0 +1,91 @@
+{
+    "timestamp": "2026-05-27T15:16:22.135331",
+    "process_info": {
+        "pid": 9020,
+        "name": "python3",
+        "exe_path": "/usr/bin/python3.12",
+        "memory_info": {
+            "rss": 14036992,
+            "rss_human": "13.4M",
+            "vms": 19394560,
+            "vms_human": "18.5M",
+            "shared": 7249920,
+            "shared_human": "6.9M",
+            "text": 3026944,
+            "text_human": "2.9M",
+            "lib": 0,
+            "lib_human": "0.0B",
+            "data": 8474624,
+            "data_human": "8.1M",
+            "dirty": 0,
+            "dirty_human": "0.0B"
+        },
+        "cpu_percent": 0.0,
+        "status": "running",
+        "create_time": "2026-05-27T15:16:21.140000"
+    },
+    "system_info": {
+        "cpu": {
+            "logical_cpus": 12,
+            "physical_cpus": 8,
+            "total_usage_percent": 6.7,
+            "per_cpu_usage_percent": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                1.0,
+                0.0
+            ],
+            "frequency": {
+                "current": 474.9988333333333,
+                "min": 400.0,
+                "max": 4033.3333333333335
+            }
+        },
+        "memory": {
+            "virtual": {
+                "total": 8035917824,
+                "total_human": "7.5G",
+                "available": 3271352320,
+                "available_human": "3.0G",
+                "percent": 59.3,
+                "used": 4023345152,
+                "used_human": "3.7G",
+                "free": 922370048,
+                "free_human": "879.6M",
+                "active": 3690881024,
+                "active_human": "3.4G",
+                "inactive": 2213191680,
+                "inactive_human": "2.1G",
+                "buffers": 68632576,
+                "buffers_human": "65.5M",
+                "cached": 3021570048,
+                "cached_human": "2.8G",
+                "shared": 811941888,
+                "shared_human": "774.3M",
+                "slab": 377569280,
+                "slab_human": "360.1M"
+            },
+            "swap": {
+                "total": 4294963200,
+                "total_human": "4.0G",
+                "used": 61440,
+                "used_human": "60.0K",
+                "free": 4294901760,
+                "free_human": "4.0G",
+                "percent": 0.0,
+                "sin": 0,
+                "sin_human": "0.0B",
+                "sout": 61440,
+                "sout_human": "60.0K"
+            }
+        }
+    }
+}
