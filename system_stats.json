@@ -1,91 +1,320 @@
 {
-    "timestamp": "2026-05-27T15:16:22.135331",
+    "timestamp": "2026-05-27T15:27:19.175730",
     "process_info": {
-        "pid": 9020,
+        "pid": 10512,
         "name": "python3",
         "exe_path": "/usr/bin/python3.12",
-        "memory_info": {
-            "rss": 14036992,
-            "rss_human": "13.4M",
-            "vms": 19394560,
-            "vms_human": "18.5M",
-            "shared": 7249920,
-            "shared_human": "6.9M",
-            "text": 3026944,
-            "text_human": "2.9M",
-            "lib": 0,
-            "lib_human": "0.0B",
-            "data": 8474624,
-            "data_human": "8.1M",
-            "dirty": 0,
-            "dirty_human": "0.0B"
-        },
-        "cpu_percent": 0.0,
         "status": "running",
-        "create_time": "2026-05-27T15:16:21.140000"
+        "create_time": "2026-05-27T15:27:18.140000",
+        "cpu_percent": 0.0,
+        "num_threads": 1,
+        "memory": {
+            "rss": 14438400,
+            "rss_human": "13.77 MB",
+            "vms": 19644416,
+            "vms_human": "18.73 MB",
+            "percent": 0.18
+        },
+        "file_descriptors": {
+            "count": 7,
+            "open_files": [
+                "/dev/pts/1",
+                "/dev/pts/1",
+                "/dev/pts/1",
+                "/dev/ptmx",
+                "/dev/ptmx",
+                "/snap/code/233/usr/share/code/v8_context_snapshot.bin"
+            ]
+        },
+        "proc_status_extra": {
+            "voluntary_ctxt_switches": "8",
+            "nonvoluntary_ctxt_switches": "4",
+            "vm_peak": "19184 kB",
+            "vm_rss": "14100 kB"
+        }
     },
     "system_info": {
+        "os": {
+            "system": "Linux",
+            "release": "6.17.0-23-generic",
+            "version": "#23~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 14 16:11:48 UTC 2",
+            "hostname": "sergey-MDF-XX",
+            "kernel": "Linux version 6.17.0-23-generic (buildd@lcy02-amd64-016) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #23~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 14 16:11:48 UTC 2"
+        },
         "cpu": {
+            "model": "12th Gen Intel(R) Core(TM) i5-12450H",
             "logical_cpus": 12,
             "physical_cpus": 8,
-            "total_usage_percent": 6.7,
+            "total_usage_percent": 11.28,
             "per_cpu_usage_percent": [
-                1.0,
-                0.0,
-                0.0,
-                1.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                1.0,
-                0.0
+                10.1,
+                14.0,
+                14.1,
+                6.1,
+                12.1,
+                8.0,
+                16.3,
+                8.2,
+                12.1,
+                13.0,
+                11.2,
+                10.2
             ],
-            "frequency": {
-                "current": 474.9988333333333,
+            "frequency_mhz": {
+                "current": 1394.6,
                 "min": 400.0,
-                "max": 4033.3333333333335
+                "max": 4033.3
             }
         },
         "memory": {
             "virtual": {
                 "total": 8035917824,
-                "total_human": "7.5G",
-                "available": 3271352320,
-                "available_human": "3.0G",
-                "percent": 59.3,
-                "used": 4023345152,
-                "used_human": "3.7G",
-                "free": 922370048,
-                "free_human": "879.6M",
-                "active": 3690881024,
-                "active_human": "3.4G",
-                "inactive": 2213191680,
-                "inactive_human": "2.1G",
-                "buffers": 68632576,
-                "buffers_human": "65.5M",
-                "cached": 3021570048,
-                "cached_human": "2.8G",
-                "shared": 811941888,
-                "shared_human": "774.3M",
-                "slab": 377569280,
-                "slab_human": "360.1M"
+                "total_human": "7.48 GB",
+                "available": 2474110976,
+                "avail_human": "2.30 GB",
+                "used": 4381519872,
+                "used_human": "4.08 GB",
+                "free": 382492672,
+                "free_human": "364.77 MB",
+                "percent": 69.2,
+                "cached_human": "3.00 GB",
+                "buffers_human": "47.73 MB"
             },
             "swap": {
                 "total": 4294963200,
-                "total_human": "4.0G",
+                "total_human": "4.00 GB",
                 "used": 61440,
-                "used_human": "60.0K",
+                "used_human": "60.00 KB",
                 "free": 4294901760,
-                "free_human": "4.0G",
-                "percent": 0.0,
-                "sin": 0,
-                "sin_human": "0.0B",
-                "sout": 61440,
-                "sout_human": "60.0K"
+                "free_human": "4.00 GB",
+                "percent": 0.0
+            },
+            "meminfo_extra": {
+                "MemTotal": "7847576 kB",
+                "MemFree": "373528 kB",
+                "MemAvailable": "2416124 kB",
+                "Dirty": "2228 kB",
+                "Writeback": "0 kB",
+                "HugePages_Total": "0"
             }
-        }
+        },
+        "disks": [
+            {
+                "device": "/dev/nvme0n1p5",
+                "mountpoint": "/",
+                "fstype": "ext4",
+                "total": 57153568768,
+                "total_human": "53.23 GB",
+                "used": 15644524544,
+                "used_human": "14.57 GB",
+                "free": 38572613632,
+                "free_human": "35.92 GB",
+                "percent": 28.9
+            },
+            {
+                "device": "/dev/loop0",
+                "mountpoint": "/snap/bare/5",
+                "fstype": "squashfs",
+                "total": 131072,
+                "total_human": "128.00 KB",
+                "used": 131072,
+                "used_human": "128.00 KB",
+                "free": 0,
+                "free_human": "0 B",
+                "percent": 100.0
+            },
+            {
+                "device": "/dev/loop1",
+                "mountpoint": "/snap/code/233",
+                "fstype": "squashfs",
+                "total": 379191296,
+                "total_human": "361.62 MB",
+                "used": 379191296,
+                "used_human": "361.62 MB",
+                "free": 0,
+                "free_human": "0 B",
+                "percent": 100.0
+            },
+            {
+                "device": "/dev/loop2",
+                "mountpoint": "/snap/core20/2769",
+                "fstype": "squashfs",
+                "total": 66977792,
+                "total_human": "63.88 MB",
+                "used": 66977792,
+                "used_human": "63.88 MB",
+                "free": 0,
+                "free_human": "0 B",
+                "percent": 100.0
+            },
+            {
+                "device": "/dev/loop3",
+                "mountpoint": "/snap/core22/2292",
+                "fstype": "squashfs",
+                "total": 77594624,
+                "total_human": "74.00 MB",
+                "used": 77594624,
+                "used_human": "74.00 MB",
+                "free": 0,
+                "free_human": "0 B",
+                "percent": 100.0
+            },
+            {
+                "device": "/dev/loop4",
+                "mountpoint": "/snap/firefox/7766",
+                "fstype": "squashfs",
+                "total": 263979008,
+                "total_human": "251.75 MB",
+                "used": 263979008,
+                "used_human": "251.75 MB",
+                "free": 0,
+                "free_human": "0 B",
+                "percent": 100.0
+            },
+            {
+                "device": "/dev/loop5",
+                "mountpoint": "/snap/core24/1587",
+                "fstype": "squashfs",
+                "total": 70123520,
+                "total_human": "66.88 MB",
+                "used": 70123520,
+                "used_human": "66.88 MB",
+                "free": 0,
+                "free_human": "0 B",
+                "percent": 100.0
+            },
+            {
+                "device": "/dev/loop6",
+                "mountpoint": "/snap/gnome-46-2404/153",
+                "fstype": "squashfs",
+                "total": 635568128,
+                "total_human": "606.12 MB",
+                "used": 635568128,
+                "used_human": "606.12 MB",
+                "free": 0,
+                "free_human": "0 B",
+                "percent": 100.0
+            },
+            {
+                "device": "/dev/loop7",
+                "mountpoint": "/snap/firmware-updater/210",
+                "fstype": "squashfs",
+                "total": 19398656,
+                "total_human": "18.50 MB",
+                "used": 19398656,
+                "used_human": "18.50 MB",
+                "free": 0,
+                "free_human": "0 B",
+                "percent": 100.0
+            },
+            {
+                "device": "/dev/loop9",
+                "mountpoint": "/snap/gtk-common-themes/1535",
+                "fstype": "squashfs",
+                "total": 96206848,
+                "total_human": "91.75 MB",
+                "used": 96206848,
+                "used_human": "91.75 MB",
+                "free": 0,
+                "free_human": "0 B",
+                "percent": 100.0
+            },
+            {
+                "device": "/dev/loop8",
+                "mountpoint": "/snap/gnome-42-2204/247",
+                "fstype": "squashfs",
+                "total": 557187072,
+                "total_human": "531.38 MB",
+                "used": 557187072,
+                "used_human": "531.38 MB",
+                "free": 0,
+                "free_human": "0 B",
+                "percent": 100.0
+            },
+            {
+                "device": "/dev/loop10",
+                "mountpoint": "/snap/mesa-2404/1165",
+                "fstype": "squashfs",
+                "total": 414187520,
+                "total_human": "395.00 MB",
+                "used": 414187520,
+                "used_human": "395.00 MB",
+                "free": 0,
+                "free_human": "0 B",
+                "percent": 100.0
+            },
+            {
+                "device": "/dev/loop11",
+                "mountpoint": "/snap/snap-store/1270",
+                "fstype": "squashfs",
+                "total": 11403264,
+                "total_human": "10.88 MB",
+                "used": 11403264,
+                "used_human": "10.88 MB",
+                "free": 0,
+                "free_human": "0 B",
+                "percent": 100.0
+            },
+            {
+                "device": "/dev/loop12",
+                "mountpoint": "/snap/snap-store/1310",
+                "fstype": "squashfs",
+                "total": 16384000,
+                "total_human": "15.62 MB",
+                "used": 16384000,
+                "used_human": "15.62 MB",
+                "free": 0,
+                "free_human": "0 B",
+                "percent": 100.0
+            },
+            {
+                "device": "/dev/loop14",
+                "mountpoint": "/snap/snapd-desktop-integration/343",
+                "fstype": "squashfs",
+                "total": 655360,
+                "total_human": "640.00 KB",
+                "used": 655360,
+                "used_human": "640.00 KB",
+                "free": 0,
+                "free_human": "0 B",
+                "percent": 100.0
+            },
+            {
+                "device": "/dev/loop13",
+                "mountpoint": "/snap/snapd/25935",
+                "fstype": "squashfs",
+                "total": 50462720,
+                "total_human": "48.12 MB",
+                "used": 50462720,
+                "used_human": "48.12 MB",
+                "free": 0,
+                "free_human": "0 B",
+                "percent": 100.0
+            },
+            {
+                "device": "/dev/nvme0n1p1",
+                "mountpoint": "/boot/efi",
+                "fstype": "vfat",
+                "total": 100663296,
+                "total_human": "96.00 MB",
+                "used": 72769536,
+                "used_human": "69.40 MB",
+                "free": 27893760,
+                "free_human": "26.60 MB",
+                "percent": 72.3
+            },
+            {
+                "device": "/dev/loop15",
+                "mountpoint": "/snap/core24/1643",
+                "fstype": "squashfs",
+                "total": 70123520,
+                "total_human": "66.88 MB",
+                "used": 70123520,
+                "used_human": "66.88 MB",
+                "free": 0,
+                "free_human": "0 B",
+                "percent": 100.0
+            }
+        ]
     }
 }
